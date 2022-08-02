@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mindful-wellness-app/static/css/main.073c9b0a.css",
-    "main.js": "/mindful-wellness-app/static/js/main.c0229ad4.js",
-    "static/js/787.4b81abef.chunk.js": "/mindful-wellness-app/static/js/787.4b81abef.chunk.js",
-    "index.html": "/mindful-wellness-app/index.html",
-    "main.073c9b0a.css.map": "/mindful-wellness-app/static/css/main.073c9b0a.css.map",
-    "main.c0229ad4.js.map": "/mindful-wellness-app/static/js/main.c0229ad4.js.map",
-    "787.4b81abef.chunk.js.map": "/mindful-wellness-app/static/js/787.4b81abef.chunk.js.map"
+    "main.css": "/mindfulnest-wellness-app/static/css/main.073c9b0a.css",
+    "main.js": "/mindfulnest-wellness-app/static/js/main.2c09e353.js",
+    "static/js/787.4b81abef.chunk.js": "/mindfulnest-wellness-app/static/js/787.4b81abef.chunk.js",
+    "index.html": "/mindfulnest-wellness-app/index.html",
+    "main.073c9b0a.css.map": "/mindfulnest-wellness-app/static/css/main.073c9b0a.css.map",
+    "main.2c09e353.js.map": "/mindfulnest-wellness-app/static/js/main.2c09e353.js.map",
+    "787.4b81abef.chunk.js.map": "/mindfulnest-wellness-app/static/js/787.4b81abef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c0229ad4.js"
+    "static/js/main.2c09e353.js"
   ]
 }
