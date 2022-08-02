@@ -5,6 +5,20 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
+}
+
+.app-control-container{
+  border: white solid 2px; 
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-box{
+  border: white dotted 2px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
