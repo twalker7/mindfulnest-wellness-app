@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mindful-wellness-app/static/css/main.073c9b0a.css",
+    "main.js": "/mindful-wellness-app/static/js/main.c0229ad4.js",
+    "static/js/787.4b81abef.chunk.js": "/mindful-wellness-app/static/js/787.4b81abef.chunk.js",
+    "index.html": "/mindful-wellness-app/index.html",
+    "main.073c9b0a.css.map": "/mindful-wellness-app/static/css/main.073c9b0a.css.map",
+    "main.c0229ad4.js.map": "/mindful-wellness-app/static/js/main.c0229ad4.js.map",
+    "787.4b81abef.chunk.js.map": "/mindful-wellness-app/static/js/787.4b81abef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c0229ad4.js"
+  ]
+}
