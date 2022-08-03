@@ -2,6 +2,11 @@ import Button from 'react-bootstrap/Button'
 import './App.css';
 
 function App() {
+
+  function playAudio(){
+    alert("button worked!")
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -11,7 +16,7 @@ function App() {
          CONSOLE
         </p>
       <div className="button-box">
-         <Button variant="light"> Play Affirmation </Button>
+         <Button variant="light" onClick={playAudio}> Play Affirmation </Button>
       </div>
         </div>
 
