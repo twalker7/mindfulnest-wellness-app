@@ -9,7 +9,7 @@
 }
 
 .app-control-container{
-  border: white solid 2px; 
+  border: white solid 3px; 
   height: 400px;
   width: 400px;
   display: flex;
@@ -18,7 +18,7 @@
 }
 
 .button-box{
-  border: white dotted 2px;
+  border: white solid 2px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

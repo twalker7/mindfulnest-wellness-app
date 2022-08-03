@@ -1,4 +1,4 @@
-
+import Button from 'react-bootstrap/Button'
 import './App.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
          CONSOLE
         </p>
       <div className="button-box">
-          buttons
+         <Button variant="light"> Play Affirmation </Button>
       </div>
         </div>
 
