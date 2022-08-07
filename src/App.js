@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button'
 import './App.css';
 
+
 function App() {
 
   function playAudio(){
@@ -15,9 +16,15 @@ function App() {
           <p>
          CONSOLE
         </p>
+        <audio controls>
+    <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/mpeg"/>
+    <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
+</audio>
       <div className="button-box">
+        
          <Button variant="light" onClick={playAudio}> Play Affirmation </Button>
       </div>
+      
         </div>
 
         
@@ -27,3 +34,7 @@ function App() {
 }
 
 export default App;
+
+// import audio file
+//create array of key value pairs for console and selection of audio file(s)
+//implement function for button that displays key and runs the value of each pair
