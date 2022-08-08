@@ -17,7 +17,7 @@ function App() {
          CONSOLE
         </p>
         <audio controls>
-    <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/mpeg"/>
+    <source src={require("../src/i-serve-the-base.mp3")} type="audio/mpeg"/>
     <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
 </audio>
       <div className="button-box">
