@@ -6,6 +6,7 @@ function App() {
 
   function playAudio(){
     alert("button worked!")
+    var audio = document.getElementById("audio");
   }
 
   return (
@@ -16,8 +17,8 @@ function App() {
           <p>
          CONSOLE
         </p>
-        <audio controls>
-    <source src={require("../src/i-serve-the-base.mp3")} type="audio/mpeg"/>
+        <audio id="audio" controls>
+    <source src={require("../src/mindfulnest-affirmation-demoset1.mp3")} type="audio/mpeg"/>
     <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
 </audio>
       <div className="button-box">
