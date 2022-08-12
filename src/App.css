@@ -8,6 +8,14 @@
 
 }
 
+.app-title-container{
+  margin-bottom: 5vh;
+}
+
+.app-subtitle{
+  margin-top: -15px;
+}
+
 .app-control-container{
   border: white solid 3px; 
   height: 400px;
@@ -30,6 +38,11 @@
 .button-box{
   
   margin-bottom: 10px;
+}
+
+.copyright{
+  font-size: 10px;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {

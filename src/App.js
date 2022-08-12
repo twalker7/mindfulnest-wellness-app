@@ -16,6 +16,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <div className="app-title-container"> 
+      <h1 className="app-title"> MINDFULNEST </h1>
+      <h6 className="app-subtitle"> a launchpad for fly thinking  </h6>
+      </div>
         <div className="app-control-container-surrounder"> 
         <div className="app-control-container"> 
           <h2>
@@ -31,7 +35,7 @@ function App() {
         </div>
         </div>
 
-        
+        <p className="copyright">  Copyright © 2022 All Rights Reserved </p>
       </header>
     </div>
   );
