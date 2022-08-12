@@ -23,10 +23,6 @@ function App() {
         </p>
         <AudioComponent />
 
-        <audio controls>
-    <source src={require("../src/mindfulnest-affirmation-demoset1.mp3")} type="audio/mpeg"/>
-    <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
-</audio>
       <div className="button-box">
         
          <Button variant="light" onClick={playAudio}> Button </Button>
