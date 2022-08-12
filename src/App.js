@@ -1,6 +1,8 @@
 import Button from 'react-bootstrap/Button'
 import './App.css';
 
+import useState from 'react'
+import AudioComponent from './components/AudioComponent'
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
     alert("button worked!")
 
   }
+
+
 
   return (
     <div className="App">
@@ -17,6 +21,8 @@ function App() {
           <p>
          CONSOLE
         </p>
+        <AudioComponent />
+
         <audio controls>
     <source src={require("../src/mindfulnest-affirmation-demoset1.mp3")} type="audio/mpeg"/>
     <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
