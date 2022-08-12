@@ -18,6 +18,15 @@
   align-items: center;
 }
 
+.app-control-container-surrounder{
+  border: white solid 3px; 
+  height: 410px;
+  width: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button-box{
   
   margin-bottom: 10px;

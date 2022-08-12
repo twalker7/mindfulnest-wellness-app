@@ -16,11 +16,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-  
+        <div className="app-control-container-surrounder"> 
         <div className="app-control-container"> 
-          <p>
-         CONSOLE
-        </p>
+          <h2>
+         Audio Prototypes
+        </h2>
         <AudioComponent />
 
       <div className="button-box">
@@ -28,6 +28,7 @@ function App() {
          <Button variant="light" onClick={playAudio}> Button </Button>
       </div>
       
+        </div>
         </div>
 
         
