@@ -7,7 +7,7 @@ import AudioComponent from './components/AudioComponent'
 function App() {
 
   function playAudio(){
-    alert("button worked!")
+    alert("This button is under construction!")
 
   }
 
