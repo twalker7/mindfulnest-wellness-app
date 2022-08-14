@@ -18,7 +18,7 @@ function App() {
       <header className="App-header">
       <div className="app-title-container"> 
       <h1 className="app-title"> MINDFULNEST </h1>
-      <h6 className="app-subtitle"> a launchpad for higher presence  </h6>
+      <h6 className="app-subtitle"> a launchpad for manifestation </h6>
       </div>
         <div className="app-control-container-surrounder"> 
         <div className="app-control-container"> 
