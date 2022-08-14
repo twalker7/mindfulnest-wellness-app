@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -60,6 +61,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url(../src/assets/simon-wilkes-tree.jpg);
+
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .App-link {
