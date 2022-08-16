@@ -11,6 +11,36 @@ function App() {
 
   }
 
+  const player = document.getElementById('player');
+
+  const handleSuccess = function (stream) {
+    if (window.URL) {
+      player.srcObject = stream;
+    } else {
+      player.src = stream;
+    }
+  };
+
+  navigator.mediaDevices
+    .getUserMedia({audio: true, video: false})
+    .then(handleSuccess);
+
+      const handleSuccess2 = function(stream) {
+    const context = new AudioContext();
+    const source = context.createMediaStreamSource(stream);
+    const processor = context.createScriptProcessor(1024, 1, 1);
+
+    source.connect(processor);
+    processor.connect(context.destination);
+
+    processor.onaudioprocess = function(e) {
+      // Do something with the data, e.g. convert it to WAV
+      console.log(e.inputBuffer);
+    };
+  };
+
+  navigator.mediaDevices.getUserMedia({ audio: true, video: false })
+      .then(handleSuccess2);
 
 
   return (
@@ -29,7 +59,12 @@ function App() {
 
       <div className="button-box">
         
-         <Button variant="light" onClick={playAudio}> Button </Button>
+         <Button variant="light" onClick={playAudio}> Record  </Button>
+
+         <audio id="player" controls></audio>
+         
+
+
       </div>
       
         </div>
