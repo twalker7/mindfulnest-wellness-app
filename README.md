@@ -30,6 +30,8 @@ Technology: JQuery, BootStrap, MomentJS, OpenWeather API
 
 ## Usage 
 
+Decide the category of audio affirmation that you would like to hear, click play and enjoy the positivity! Future development will enable user recording.
+
 ## Credits
 
 Thomas Walker, Active8 Distrubution Services 
