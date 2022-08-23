@@ -8,7 +8,7 @@
 
 ## Description 
 
- 
+ A web application designed to emerse the user in positive thought processes via audio tracks. These tracks contain an array of affirmations that will ultimately encourage thoughts of similar nature within the mind of the user. 
 
  ### Snapshot
 
