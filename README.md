@@ -3,8 +3,7 @@
 
 ## Description 
 
- A web application designed to emerse the user in positive thought processes via audio tracks. These tracks contain an array of affirmations that will ultimately encourage thoughts of similar nature within the mind of the user. 
-
+ A web application purposed to provide users with emersive soundtracks containing affirmations and mantras conducive to positive, constructive, and productive thought patterns. Each track is categorized and tailored to a specific theme, allowing the user to control th
  
  ### Snapshot
 
