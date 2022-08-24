@@ -2,14 +2,11 @@
 ## An application for mental and physical wellness 
 
  
-
-
-# WeatherAll-pro
-
 ## Description 
 
  A web application designed to emerse the user in positive thought processes via audio tracks. These tracks contain an array of affirmations that will ultimately encourage thoughts of similar nature within the mind of the user. 
 
+ 
  ### Snapshot
 
 ![](screenshot.png)
@@ -30,7 +27,9 @@ Technology: JQuery, BootStrap, MomentJS, OpenWeather API
 
 ## Usage 
 
-Decide the category of audio affirmation that you would like to hear, click play and enjoy the positivity! Future development will enable user recording.
+Select from an assortment of audio recordings containing affirmations tailored specifically for the type of mindscape that the user desires to listen to
+
+Decide a mantra category, click play, and enjoy the positivity! Future development will enable user recording.
 
 ## Credits
 
