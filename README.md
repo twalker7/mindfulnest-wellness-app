@@ -3,7 +3,7 @@
 
 ## Description 
 
- A web application purposed to provide users with emersive soundtracks containing affirmations and mantras conducive to positive, constructive, and productive thought patterns. Each track is categorized and tailored to a specific theme, allowing the user to control th
+ MVP: A web application purposed to provide a user with emersive soundtracks containing affirmations and mantras conducive to positive, constructive, and productive thought patterns. Each track is categorized and tailored to a specific theme, allowing the user to better control their mental environment 
  
  ### Snapshot
 
@@ -21,7 +21,7 @@
 
 ## Installation
 
-Technology: JQuery, BootStrap, MomentJS, OpenWeather API
+Technology: React, BootStrap
 
 ## Usage 
 
