@@ -11,6 +11,21 @@ function App() {
 
   }
 
+// documentation from 
+  const player = document.getElementById('player');
+
+  const handleSuccess = function (stream) {
+    if (window.URL) {
+      player.srcObject = stream;
+    } else {
+      player.src = stream;
+    }
+  };
+
+  navigator.mediaDevices
+    .getUserMedia({audio: true, video: false})
+    .then(handleSuccess);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -28,6 +43,9 @@ function App() {
       <div className="button-box">
         
          <Button variant="light" onClick={playAudio}> Record  </Button>
+
+         <audio id="player" controls></audio>
+
 
 
 
