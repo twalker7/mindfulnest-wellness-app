@@ -1,5 +1,5 @@
 # MindfulNest
-## An application for mental and physical wellness 
+## an application for mental and physical wellness 
 
 ## Description 
 
