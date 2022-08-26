@@ -1,8 +1,17 @@
 import React from 'react';
 
-function HomeMenu(){
+function HomeMenu(props){
+
+
+
+
     return(
-        <div>
+        <div className="home-menu">
+<div> <a className="nav-element" href={()=>false} onClick={()=> props.setCurrentComponent('home')}> Home</a></div>
+
+<div> <a className="nav-element" href={()=>false} onClick={()=> props.setCurrentComponent('audio')}> Upcoming  </a></div>
+<div> <a className="nav-element" href={()=>false} onClick={()=> props.setCurrentComponent('about')}> About </a> </div>
+<div> <a className="nav-element" href={()=>false} onClick={()=> props.setCurrentComponent('contact')} > Contact/Submissions </a> </div>
 
         </div>
     )

@@ -1,10 +1,36 @@
 import Button from 'react-bootstrap/Button'
 import './App.css';
 
-import useState from 'react'
+import {useState} from 'react'
 import AudioComponent from './components/AudioComponent'
-
+import HomeMenu from './components/HomeMenu'
+import Contact from './components/Contact';
+import About from './components/About'
 function App() {
+
+  const [currentComponent, setCurrentComponent] = useState('audio');
+
+
+  function changeComponent(){
+    switch (currentComponent) {
+      case 'home':
+        return <HomeMenu/>
+        
+      case 'contact':
+        return <Contact/>
+      case 'about':
+        return <About/>
+
+      case 'audio':
+        return <AudioComponent/>
+
+      
+      default: 
+      return
+  
+    }
+  }
+
 
   function playAudio(){
     alert("This button is under construction!")
@@ -38,16 +64,14 @@ function App() {
           <h2>
          Audio Prototypes
         </h2>
-        <AudioComponent />
-
+        <HomeMenu currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
+      
+          {changeComponent()}
       <div className="button-box">
         
          <Button variant="light" onClick={playAudio}> Record  </Button>
 
          <audio id="player" controls></audio>
-
-
-
 
 
       </div>
