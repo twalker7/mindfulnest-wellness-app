@@ -8,18 +8,18 @@ import Contact from './components/Contact';
 import About from './components/About'
 function App() {
 
-  const [currentComponent, setCurrentComponent] = useState('audio');
+  const [currentComponent, setCurrentComponent] = useState('home');
 
 
   function changeComponent(){
     switch (currentComponent) {
       case 'home':
-        return <HomeMenu/>
+        return <HomeMenu currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
         
       case 'contact':
         return <Contact/>
       case 'about':
-        return <About/>
+        return <About currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
 
       case 'audio':
         return <AudioComponent/>
@@ -49,8 +49,7 @@ function App() {
         <div className="app-control-container-surrounder"> 
         <div className="app-control-container"> 
 
-        <HomeMenu currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
-      
+
           {changeComponent()}
 
       
