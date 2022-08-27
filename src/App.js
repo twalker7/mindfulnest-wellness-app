@@ -5,7 +5,8 @@ import {useState} from 'react'
 import AudioComponent from './components/AudioComponent'
 import HomeMenu from './components/HomeMenu'
 import Contact from './components/Contact';
-import About from './components/About'
+import About from './components/About';
+import Record from './components/Record';
 function App() {
 
   const [currentComponent, setCurrentComponent] = useState('home');
@@ -17,25 +18,23 @@ function App() {
         return <HomeMenu currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
         
       case 'contact':
-        return <Contact/>
+        return <Contact currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
       case 'about':
         return <About currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
 
       case 'audio':
-        return <AudioComponent/>
+        return <AudioComponent currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
 
-      
+        case 'record':
+          return <Record currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
+  
+       
       default: 
       return
   
     }
   }
 
-
-  function playAudio(){
-    alert("This button is under construction!")
-
-  }
 
 
 

@@ -4,7 +4,7 @@ function About(props){
     return(
         <div>
             About 
-            <div> <a className="nav-element" onClick={()=> props.setCurrentComponent('home')}> Home</a></div>
+            <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
 
         </div>
     )

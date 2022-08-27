@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function AudioComponent(){
+function AudioComponent(props){
 /* documentation from 
 const player = document.getElementById('player');
 
@@ -43,6 +43,7 @@ navigator.mediaDevices
     <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
         </audio>
 
+        <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
 
         </div>
     )

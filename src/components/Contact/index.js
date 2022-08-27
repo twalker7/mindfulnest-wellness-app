@@ -1,9 +1,13 @@
 import React from 'react';
 
-function Contact(){
+function Contact(props){
     return(
         <div>
             Contact 
+
+
+            <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
+
         </div>
     )
 }

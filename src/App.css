@@ -48,13 +48,22 @@
 
 .home-menu{
   border: red solid 3px;
-  height: 400px;
+  height: 300px;
   width: 400px;
 
 }
 
 .nav-element{
-  border: purple solid 2px;
+  border: yellow solid 2px;
+  height: 200px;
+  width: 200px; 
+}
+
+.back-button{
+  border: white solid 2px;
+  height: 50px;
+  width: 70px;
+  align-self: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
