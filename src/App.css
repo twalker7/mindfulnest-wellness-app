@@ -46,17 +46,19 @@
   
 }
 
-.home-menu{
+.home-menu-container{
   border: red solid 3px;
   height: 300px;
   width: 400px;
+  display: flex;
+  flex-direction:row
 
 }
 
 .nav-element{
   border: yellow solid 2px;
-  height: 200px;
-  width: 200px; 
+  height: 100px;
+  width: 100px; 
 }
 
 .back-button{
@@ -64,6 +66,13 @@
   height: 50px;
   width: 70px;
   align-self: center;
+}
+
+.audio-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -6,12 +6,12 @@ function HomeMenu(props){
 
 
     return(
-        <div className="home-menu">
+        <div className="home-menu-container">
 
-                <div> <a className="nav-element"  onClick={()=> props.setCurrentComponent('audio')}>  Mantra Sets  </a></div>
-                <div> <a className="nav-element"  onClick={()=> props.setCurrentComponent('about')}> About </a> </div>
-                <div> <a className="nav-element"  onClick={()=> props.setCurrentComponent('contact')} > Contact </a> </div>
-                <div> <a className="nav-element" onClick={()=> props.setCurrentComponent('record')}> Record & Play</a></div>
+                <div> <div className="nav-element"  onClick={()=> props.setCurrentComponent('audio')}>  Audio Tracks  </div></div>
+                <div> <div className="nav-element"  onClick={()=> props.setCurrentComponent('about')}> About </div> </div>
+                <div> <div className="nav-element"  onClick={()=> props.setCurrentComponent('contact')} > Contact </div> </div>
+                <div> <div className="nav-element" onClick={()=> props.setCurrentComponent('record')}> Record and Play</div></div>
 
         </div>
     )
