@@ -47,7 +47,7 @@
 }
 
 .home-menu-container{
-  border: red solid 3px;
+
   height: 400px;
   width: 400px;
   display: flex;
@@ -60,8 +60,8 @@
 
 .home-menu-element{
   border: yellow solid 2px;
-  height: 190px;
-  width: 195px; 
+  height: 198px;
+  width: 200px; 
   display: flex;
   justify-content: center;
   align-items: center;
