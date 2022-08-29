@@ -25,6 +25,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .app-control-container-surrounder{
@@ -53,18 +54,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items:stretch
-
 
 }
 
 .home-menu-element{
-  border: yellow solid 2px;
+  border: white solid 2px;
   height: 198px;
   width: 200px; 
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(81,98,114, 0.3);
+
+
 
 }
 
