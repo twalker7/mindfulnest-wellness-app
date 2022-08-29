@@ -55,7 +55,7 @@
 
 }
 
-.nav-element{
+.home-menu-container{
   border: yellow solid 2px;
   height: 100px;
   width: 100px; 
@@ -68,7 +68,7 @@
   align-self: center;
 }
 
-.audio-container{
+.audio-component-container{
   display: flex;
   flex-direction: column;
   justify-content: center;

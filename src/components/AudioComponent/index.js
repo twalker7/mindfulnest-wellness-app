@@ -19,13 +19,13 @@ navigator.mediaDevices
 
   */
     return(
-        <div className="audio-container">
+        <div className="audio-component-container">
 
         <h2>
          Audio Track Prototypes
         </h2>
       <div>
-        <h4> General Sample </h4> 
+        <h5> General Sample </h5> 
         <audio controls>
           <source src={require("../../../src/assets/mindfulnest-affirmation-demoset1-general.mp3")} type="audio/mpeg"/>
           <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
@@ -33,7 +33,7 @@ navigator.mediaDevices
       </div>
 
         <div>
-          <h4> When Facing adversity  </h4> 
+          <h5> When Facing adversity  </h5> 
           <audio controls>
             <source src={require("../../../src/assets/mindfulnest-affirmation-demoset2-adversity.mp3")} type="audio/mpeg"/>
             <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
@@ -41,7 +41,7 @@ navigator.mediaDevices
         </div>
 
         <div>
-          <h4> Body Wellness </h4> 
+          <h5> Body Wellness </h5> 
           <audio controls>
             <source src={require("../../../src/assets/mindfulnest-affirmation-demoset3-bodywellness.mp3")} type="audio/mpeg"/>
             <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
@@ -49,7 +49,7 @@ navigator.mediaDevices
         </div>
     
 
-        <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
+        <div className="back-button"> <a onClick={()=> props.setCurrentComponent('home')}> back</a></div>
 
         </div>
     )
