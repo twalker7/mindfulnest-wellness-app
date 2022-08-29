@@ -6,7 +6,7 @@ import AudioComponent from './components/AudioComponent'
 import HomeMenu from './components/HomeMenu'
 import Contact from './components/Contact';
 import About from './components/About';
-import Record from './components/Record';
+import RecordComponent from './components/RecordComponent';
 function App() {
 
   const [currentComponent, setCurrentComponent] = useState('home');
@@ -26,7 +26,7 @@ function App() {
         return <AudioComponent currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
 
         case 'record':
-          return <Record currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
+          return <RecordComponent currentComponent={currentComponent} setCurrentComponent={setCurrentComponent}/>
   
        
       default: 

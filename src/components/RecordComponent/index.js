@@ -1,15 +1,13 @@
 import React from 'react';
 import {Button} from 'react';
 
-function Record(props){
+function RecordComponent(props){
 
     function playAudio(){
         alert("This button is under construction!")
     
       }
     
-
-      
       
     return(
         <div>
@@ -28,4 +26,4 @@ function Record(props){
     )
 }
 
-export default Record; 
+export default RecordComponent; 

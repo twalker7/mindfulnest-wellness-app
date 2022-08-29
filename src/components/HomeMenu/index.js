@@ -11,7 +11,7 @@ function HomeMenu(props){
                 <div> <div className="home-menu-element"  onClick={()=> props.setCurrentComponent('audio')}>  Audio Tracks  </div></div>
                 <div> <div className="home-menu-element"  onClick={()=> props.setCurrentComponent('about')}> About </div> </div>
                 <div> <div className="home-menu-element"  onClick={()=> props.setCurrentComponent('contact')} > Contact </div> </div>
-                <div> <div className="home-menu-element" onClick={()=> props.setCurrentComponent('record')}> Record and Play</div></div>
+                <div> <div className="home-menu-element"  onClick={()=> props.setCurrentComponent('record')}> Record and Play</div></div>
 
         </div>
     )
