@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from 'react';
+import Button from 'react';
 
 function RecordComponent(props){
 
