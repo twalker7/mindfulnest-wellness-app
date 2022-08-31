@@ -25,24 +25,24 @@ navigator.mediaDevices
          Audio Track Prototypes
         </h2>
       <div>
-        <h5> General Sample </h5> 
-        <audio controls>
+        <h5 className="audio-elemement-label"> General Sample </h5> 
+        <audio className="audio-element" controls>
           <source src={require("../../../src/assets/mindfulnest-affirmation-demoset1-general.mp3")} type="audio/mpeg"/>
           <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
         </audio>
       </div>
 
         <div>
-          <h5> When Facing adversity  </h5> 
-          <audio controls>
+          <h5 className="audio-elemement-label"> When Facing adversity  </h5> 
+          <audio className="audio-element" controls>
             <source src={require("../../../src/assets/mindfulnest-affirmation-demoset2-adversity.mp3")} type="audio/mpeg"/>
             <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
           </audio>
         </div>
 
         <div>
-          <h5> Body Wellness </h5> 
-          <audio controls>
+          <h5 className="audio-elemement-label"> Body Wellness </h5> 
+          <audio className="audio-element" controls>
             <source src={require("../../../src/assets/mindfulnest-affirmation-demoset3-bodywellness.mp3")} type="audio/mpeg"/>
             <source src="src/mindfulnest-affirmation-demoset.mp3" type="audio/ogg"/>
           </audio>
