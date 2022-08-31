@@ -144,8 +144,8 @@
     
   .app-control-container{
     border: white solid 3px; 
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -156,8 +156,8 @@
   
   .app-control-container-surrounder{
     border: white solid 3px; 
-    height: 360px;
-    width: 360px;
+    height: 310px;
+    width: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,8 +168,8 @@
   
   .home-menu-container{
 
-      height: 350px;
-      width: 350px;
+      height: 300px;
+      width: 300px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -178,8 +178,8 @@
 
     .home-menu-element{
       border: white solid 2px;
-      height: 174px;
-      width: 175px; 
+      height: 149px;
+      width: 150px; 
       display: flex;
       justify-content: center;
       align-items: center;
