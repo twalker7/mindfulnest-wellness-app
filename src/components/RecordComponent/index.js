@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'react';
+import Button from 'react-bootstrap/Button';
 
 function RecordComponent(props){
 
@@ -22,7 +22,7 @@ function RecordComponent(props){
 
      <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
 
-        </div>
+        </div>     
     )
 }
 
