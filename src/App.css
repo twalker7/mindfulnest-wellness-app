@@ -97,7 +97,7 @@
 
 .audio-component-container{
   display: flex;
-
+  flex-direction: row;
   justify-content: center;
   align-items: center; 
 }
@@ -141,7 +141,7 @@
 /*this media query may be used as a primary rulesheet to make this app mobile-first more easily 
 */
 
-@media screen and (max-width: 400px){Z
+@media screen and (max-width: 400px){
 
     
   .app-control-container{
@@ -153,7 +153,6 @@
     justify-content: space-between;
     align-items: center;
     
-    
   }
   
   .app-control-container-surrounder{
@@ -164,9 +163,6 @@
     justify-content: center;
     align-items: center;
   }
-
-
-  
   
   .home-menu-container{
 
