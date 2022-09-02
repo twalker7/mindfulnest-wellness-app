@@ -10,7 +10,7 @@ function RecordComponent(props){
     
       
     return(
-        <div>
+        <div className="record-component">
         <div className="button-box">
         
         <Button variant="light" onClick={playAudio}> Record  </Button>
@@ -20,7 +20,7 @@ function RecordComponent(props){
 
      </div>
 
-     <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
+          <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
 
         </div>     
     )
