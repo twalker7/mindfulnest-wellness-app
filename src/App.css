@@ -136,6 +136,10 @@
   background-attachment: fixed;
 }
 
+.class-content-section{
+  height: 70px;
+  width: 100px;
+}
 
 
 /*this media query may be used as a primary rulesheet to make this app mobile-first more easily 
