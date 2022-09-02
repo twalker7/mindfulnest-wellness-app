@@ -141,8 +141,7 @@
 /*this media query may be used as a primary rulesheet to make this app mobile-first more easily 
 */
 
-@media screen and (max-width: 400px){
-  
+@media screen and (max-width: 400px){Z
 
     
   .app-control-container{
