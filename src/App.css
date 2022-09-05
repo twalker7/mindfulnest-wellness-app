@@ -97,7 +97,7 @@
 
 .audio-component-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center; 
 }
@@ -136,8 +136,8 @@
   background-attachment: fixed;
 }
 
-.class-content-section{
-  height: 70px;
+.content-section{
+  height: 100px;
   width: 100px;
 }
 
