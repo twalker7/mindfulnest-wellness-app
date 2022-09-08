@@ -10,15 +10,15 @@ function RecordComponent(props){
     
       
     return(
-        <div className="record-component">
+        <div className="record-component-container">
         <div className="button-box">
         
         <Button variant="light" onClick={playAudio}> Record  </Button>
-
+  </div>
         <audio id="player" controls></audio>
 
 
-     </div>
+   
 
           <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
 
