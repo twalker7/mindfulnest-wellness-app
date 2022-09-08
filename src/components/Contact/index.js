@@ -5,7 +5,7 @@ function Contact(props){
         <div>
             Contact 
 
-
+            
             <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
 
         </div>
