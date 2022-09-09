@@ -92,8 +92,10 @@
   display: flex;
   align-self: center;
   justify-content: center; 
-  padding-top: 10px;
+ 
 }
+
+
 
 .audio-component-container{
   display: flex;
@@ -107,6 +109,12 @@
   justify-content: center;
   align-items: center; 
   flex-direction: column; 
+}
+
+.about-content-section{
+  height: 200px;
+  width: 370px;
+  font-size: 16px;
 }
 
 .contact-component-container{
@@ -125,12 +133,6 @@
   
 }
 
-.back-button{
-  border: white solid 2px;
-  height: 50px;
-  width: 70px;
-  align-self: center;
-}
 
 
 
@@ -153,11 +155,7 @@
   background-attachment: fixed;
 }
 
-.information-content-section{
-  height: 200px;
-  width: 370px;
-  font-size: 16px;
-}
+
 
 
 
