@@ -13,8 +13,8 @@ function RecordComponent(props){
         audio: false, 
         video: { 
             facingMode: "user", 
-            width: { min: 640, ideal: 1280, max: 1920 },
-            height: { min: 480, ideal: 720, max: 1080 } 
+            width: { min: 250, ideal: 350, max: 400 },
+            height: { min: 250, ideal: 325, max: 400 } 
         } 
     }; 
 
@@ -34,7 +34,7 @@ function RecordComponent(props){
         <div className="record-component-container">
         <div className="button-box">
         
-        <Button variant="light" onClick={playAudio}> Record  </Button>
+        
   </div>
         <video id="video" controls></video>
 
@@ -47,4 +47,8 @@ function RecordComponent(props){
     )
 }
 
+// <Button variant="light" onClick={playAudio}> Record  </Button>
+
 export default RecordComponent; 
+
+
