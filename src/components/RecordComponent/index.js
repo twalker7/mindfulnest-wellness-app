@@ -29,7 +29,14 @@ function RecordComponent(props){
             //old version
             video.src = window.URL.createObjectURL(mediaStreamObj);
         }
+
+        video.onloadedmetadata = function(ev) {
+          // to automatically show in the video element what is being captured by the webcam without pressing play button
+          video.play();
+        }
       }   ); 
+
+
     return(
         <div className="record-component-container">
         <div className="button-box">
