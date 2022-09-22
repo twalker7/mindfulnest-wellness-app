@@ -85,7 +85,7 @@ console.log(err.name, err.message);
         <p><button id="btnStart">START RECORDING</button><br/>
         <button id="btnStop">STOP RECORDING</button></p>
         
-        <video id="video" ></video>
+        <video id="video" controls ></video>
 
         <video id="vid2" controls></video>
 
