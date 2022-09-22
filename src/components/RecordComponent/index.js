@@ -30,6 +30,13 @@ function RecordComponent(props){
             video.src = window.URL.createObjectURL(mediaStreamObj);
         }
 
+
+
+      video.onloadedmetadata = function(ev) {
+          //show in the video element what is being captured by the webcam
+          video.play();
+      };
+      
                         
    //add listeners for saving video/audio
    let start = document.getElementById('btnStart');
@@ -78,7 +85,7 @@ console.log(err.name, err.message);
         <p><button id="btnStart">START RECORDING</button><br/>
         <button id="btnStop">STOP RECORDING</button></p>
         
-        <video id="video" controls></video>
+        <video id="video" ></video>
 
         <video id="vid2" controls></video>
 
