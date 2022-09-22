@@ -10,11 +10,11 @@ function RecordComponent(props){
 
 
     let constraintObj = { 
-        audio: false, 
+        audio: true, 
         video: { 
             facingMode: "user", 
-            width: { min: 250, ideal: 350, max: 400 },
-            height: { min: 250, ideal: 325, max: 400 } 
+            width: { min: 50, ideal: 50, max: 50 },
+            height: { min: 50, ideal: 50, max: 50 } 
         } 
     }; 
 
@@ -53,7 +53,7 @@ function RecordComponent(props){
 })
 stop.addEventListener('click', (ev)=>{
     mediaRecorder.stop();
-    console.log("mediaRecorder.state");
+    console.log(mediaRecorder.state);
 });
  mediaRecorder.ondataavailable = function(ev) {
     chunks.push(ev.data);
