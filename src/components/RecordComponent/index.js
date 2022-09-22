@@ -39,8 +39,8 @@ function RecordComponent(props){
       
                         
    //add listeners for saving video/audio
-   let start = document.getElementById('btnStart');
-   let stop = document.getElementById('btnStop');
+   let start = document.getElementById('button-start');
+   let stop = document.getElementById('button-stop');
    let vidSave = document.getElementById('vid2');
    let mediaRecorder = new MediaRecorder(mediaStreamObj);
    let chunks = [];
@@ -82,8 +82,8 @@ console.log(err.name, err.message);
         
         
   </div>
-        <p><button id="btnStart">START RECORDING</button><br/>
-        <button id="btnStop">STOP RECORDING</button></p>
+        <div className="record-button-container"><button id="button-start" className="record-buttons">START RECORDING</button><br/>
+        <button id="button-stop" className="record-buttons">STOP RECORDING</button></div>
         
         <video id="video" controls ></video>
 
