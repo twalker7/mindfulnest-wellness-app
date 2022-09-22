@@ -48,12 +48,17 @@ function RecordComponent(props){
 
 
   start.addEventListener('click', (ev)=>{
+   if(mediaRecorder.state != "recording"){
     mediaRecorder.start();
     console.log(mediaRecorder.state);
+   } 
 })
 stop.addEventListener('click', (ev)=>{
-    mediaRecorder.stop();
-    console.log(mediaRecorder.state);
+    if(mediaRecorder.state != "inactive"){
+      mediaRecorder.stop();
+      console.log(mediaRecorder.state);
+    }
+
 });
  mediaRecorder.ondataavailable = function(ev) {
     chunks.push(ev.data);
