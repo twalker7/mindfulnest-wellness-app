@@ -85,8 +85,10 @@ console.log(err.name, err.message);
         <div className="record-component-container">
 
         <div className="record-button-container">
-            <button id="button-start" className="record-buttons">START RECORDING</button>
-            <button id="button-stop" className="record-buttons">STOP RECORDING</button>
+         <Button variant="success" id="button-start" > START </Button>
+         <Button variant="danger" id="button-stop" > STOP  </Button>
+
+      
         </div>
         
         <video id="video" controls ></video>
@@ -102,8 +104,13 @@ console.log(err.name, err.message);
     )
 }
 
-// <Button variant="light" onClick={playAudio}> Record  </Button>
 
+/* 
+deleted buttons styled to match .record-buttons css ruling
+            <button id="button-start" className="record-buttons">START RECORDING</button>
+            <button id="button-stop" className="record-buttons">STOP RECORDING</button>
+
+*/
 export default RecordComponent; 
 
 
