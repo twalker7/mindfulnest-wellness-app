@@ -96,9 +96,9 @@
 }
 
 .about-content-section{
-  height: 200px;
+  height: 230px;
   width: 280px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .contact-component-container{
@@ -234,11 +234,11 @@
 
 
     #video{
-      height: 120px;
+      height: 112px;
       width: 150px;
     }
      #vid2{
-      height: 120px;
+      height: 112px;
       width: 150px;
      }
 }
