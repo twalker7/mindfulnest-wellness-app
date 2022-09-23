@@ -36,9 +36,6 @@
   align-items: center;
 }
 
-.button-box{
-  margin-bottom: 10px;
-}
 
 
 .home-menu-element{
@@ -113,12 +110,34 @@
 
 .record-component-container{
   display: flex;
-  align-items: space-between; 
-  justify-content: center; 
+  align-items: center; 
+  justify-content:center ; 
   flex-direction: column; 
 }
 
 
+
+.record-button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+.record-buttons{
+  width: 100px;
+  height: 20px;
+  font-size: 10px;
+
+}
+
+#video{
+  height: 150px;
+  width: 250px;
+}
+ #vid2{
+  height: 150px;
+  width: 250px;
+ }
 .copyright{
   font-size: 10px;
   
@@ -141,18 +160,6 @@
   background-attachment: fixed;
 }
 
-
-.record-button-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; 
-}
-.record-buttons{
-  width: 100px;
-  height: 20px;
-  font-size: 10px;
-}
 
 /*this media query may be used as a primary rulesheet to make this app mobile-first more easily 
 */
@@ -203,7 +210,7 @@
 
     .back-button{
       border: white solid 2px;
-      height: 50px;
+      height: 30px;
       width: 70px;
       align-self: center;
     }
@@ -223,4 +230,14 @@
     .audio-element-label{
       font-size: 20px;
     }
+
+
+    #video{
+      height: 120px;
+      width: 150px;
+    }
+     #vid2{
+      height: 120px;
+      width: 150px;
+     }
 }

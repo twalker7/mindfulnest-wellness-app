@@ -13,8 +13,8 @@ function RecordComponent(props){
         audio: true, 
         video: { 
             facingMode: "user", 
-            width: { min: 50, ideal: 50, max: 50 },
-            height: { min: 50, ideal: 50, max: 50 } 
+            width: { min: 150, ideal: 150, max: 150 },
+            height: { min: 150, ideal: 150, max: 150 } 
         } 
     }; 
 
@@ -83,12 +83,11 @@ console.log(err.name, err.message);
 
     return(
         <div className="record-component-container">
-        <div className="button-box">
-        
-        
-  </div>
-        <div className="record-button-container"><button id="button-start" className="record-buttons">START RECORDING</button><br/>
-        <button id="button-stop" className="record-buttons">STOP RECORDING</button></div>
+
+        <div className="record-button-container">
+            <button id="button-start" className="record-buttons">START RECORDING</button>
+            <button id="button-stop" className="record-buttons">STOP RECORDING</button>
+        </div>
         
         <video id="video" controls ></video>
 
