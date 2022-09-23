@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mindfulnest-wellness-app/static/css/main.ffff6c76.css",
-    "main.js": "/mindfulnest-wellness-app/static/js/main.1863f924.js",
+    "main.js": "/mindfulnest-wellness-app/static/js/main.852b7a41.js",
     "static/js/787.4b81abef.chunk.js": "/mindfulnest-wellness-app/static/js/787.4b81abef.chunk.js",
     "static/media/simon-wilkes-tree.jpg": "/mindfulnest-wellness-app/static/media/simon-wilkes-tree.f48999aa57719023f4da.jpg",
     "static/media/mindfulnest-affirmation-demoset2-adversity.mp3": "/mindfulnest-wellness-app/static/media/mindfulnest-affirmation-demoset2-adversity.44e8ba3605a334e24d25.mp3",
@@ -9,11 +9,11 @@
     "static/media/mindfulnest-affirmation-demoset3-bodywellness.mp3": "/mindfulnest-wellness-app/static/media/mindfulnest-affirmation-demoset3-bodywellness.27799c93b720dfd4b1a5.mp3",
     "index.html": "/mindfulnest-wellness-app/index.html",
     "main.ffff6c76.css.map": "/mindfulnest-wellness-app/static/css/main.ffff6c76.css.map",
-    "main.1863f924.js.map": "/mindfulnest-wellness-app/static/js/main.1863f924.js.map",
+    "main.852b7a41.js.map": "/mindfulnest-wellness-app/static/js/main.852b7a41.js.map",
     "787.4b81abef.chunk.js.map": "/mindfulnest-wellness-app/static/js/787.4b81abef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffff6c76.css",
-    "static/js/main.1863f924.js"
+    "static/js/main.852b7a41.js"
   ]
 }
