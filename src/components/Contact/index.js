@@ -3,9 +3,9 @@ import React from 'react';
 function Contact(props){
     return(
         <div className="contact-component-container">
-            Contact 
+            Contact Us 
             <div className=""> 
-            <h3> email </h3>
+            <h3> thomasnwalker@yahoo.com </h3>
             <h3> phone</h3>
             </div>
 
