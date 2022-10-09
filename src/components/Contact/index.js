@@ -6,7 +6,7 @@ function Contact(props){
             Contact Us 
             <div className=""> 
             <h3> thomasnwalker@yahoo.com </h3>
-            <h3> phone</h3>
+            <h3> 9098285144 </h3>
             </div>
 
             <div className="back-button"> <a  onClick={()=> props.setCurrentComponent('home')}> back</a></div>
