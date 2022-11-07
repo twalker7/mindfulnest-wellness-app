@@ -111,8 +111,8 @@
 .contact-box{
   background-color: orange;
   background-image: url(/src/assets/phone-call-nerd-nigerian.jpg);
-  height: 100px;
-  width: 100px;
+  height: 285px;
+  width: 300px;
   background-size: cover;
   margin-bottom: 10px;
 }
