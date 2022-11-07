@@ -108,6 +108,14 @@
   align-items: center; 
 }
 
+.contact-box{
+  background-color: orange;
+  background-image: url(/src/assets/phone-call-nerd-nigerian.jpg);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
 .record-component-container{
   display: flex;
   align-items: center; 
