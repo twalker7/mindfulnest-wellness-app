@@ -5,7 +5,7 @@ function Contact(props){
         <div className="contact-component-container">
             Contact Us 
             <div className="contact-box"> 
-            <h3>  </h3>
+            <h6> Contact information available soon </h6>
             <h3>  </h3>
             
          
