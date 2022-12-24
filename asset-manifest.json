@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mindfulnest-wellness-app/static/css/main.5705a146.css",
-    "main.js": "/mindfulnest-wellness-app/static/js/main.1f3db696.js",
+    "main.js": "/mindfulnest-wellness-app/static/js/main.d09f484c.js",
     "static/js/787.4b81abef.chunk.js": "/mindfulnest-wellness-app/static/js/787.4b81abef.chunk.js",
     "static/media/simon-wilkes-tree.jpg": "/mindfulnest-wellness-app/static/media/simon-wilkes-tree.f48999aa57719023f4da.jpg",
     "static/media/mindfulnest-affirmation-demoset2-adversity.mp3": "/mindfulnest-wellness-app/static/media/mindfulnest-affirmation-demoset2-adversity.44e8ba3605a334e24d25.mp3",
@@ -10,11 +10,11 @@
     "static/media/phone-call-nerd-nigerian.jpg": "/mindfulnest-wellness-app/static/media/phone-call-nerd-nigerian.a685a595873305e29f78.jpg",
     "index.html": "/mindfulnest-wellness-app/index.html",
     "main.5705a146.css.map": "/mindfulnest-wellness-app/static/css/main.5705a146.css.map",
-    "main.1f3db696.js.map": "/mindfulnest-wellness-app/static/js/main.1f3db696.js.map",
+    "main.d09f484c.js.map": "/mindfulnest-wellness-app/static/js/main.d09f484c.js.map",
     "787.4b81abef.chunk.js.map": "/mindfulnest-wellness-app/static/js/787.4b81abef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5705a146.css",
-    "static/js/main.1f3db696.js"
+    "static/js/main.d09f484c.js"
   ]
 }
