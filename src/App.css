@@ -96,10 +96,18 @@
 }
 
 .about-content-section{
-  height: 230px;
+  height: 180px;
   padding-right: 7px;
   padding-left: 7px;
   font-size: 15px;
+}
+
+.about-section-video{
+  height: 120px;
+  width: 375px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  border: dotted red 5px;
 }
 
 .contact-component-container{
